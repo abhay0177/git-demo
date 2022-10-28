@@ -1,0 +1,20 @@
+                           GIT COMMANDS
+git add->>stage + git commit->>track + git status->>check stage and tracked file
+
+git init                              #Initialize empty git repository
+git checkout -b <branch-name>         #switching to new branch 
+git checkout <branch-name>            #selecte the existing branch
+git status                            #give status of branch,commit,track/untrack of current repository
+git branch                            #branch name
+git add <file_name>                   #add file to git
+git add .                             #add all files to git
+git commit -m "<message>"             #track the staged file after being added by git add
+git  rm <file-name>                   #delete a file
+git restore <file-name>               #restore deleted file
+git restore --staged <file-name>      #untrack the file
+git revert <commit-ID>                #revert changes
+
+                           GITHUB COMMANDS
+git clone <https:..>                  #copy code from github to local  
+git push origin <branch-name>         #transfer code from local to github after commit changes
+git pull origin <branch-name>         #copy file from github repository to local 
